@@ -1,0 +1,31 @@
+/* Titre principal */
+.titre-page {
+    color: #ed1515;
+    font-weight: bold;
+}
+
+/* En-tête de la carte */
+.card-header {
+    background-color: #eaf3fb;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Carte */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Image de l'article */
+.img-article {
+    width: 180px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid #aad4f5;
+}
+
+/* Bloc auteur */
+.auteur {
+    min-width: 60px;
+}

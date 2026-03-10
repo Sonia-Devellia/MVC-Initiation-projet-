@@ -1,0 +1,32 @@
+/* Titre principal */
+.titre-page {
+    color: #1a5fa8;
+    font-weight: bold;
+}
+
+/* En-tête de la carte */
+.card-header {
+    background-color: #eaf3fb;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Carte */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Image avatar */
+.img-avatar {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #aad4f5;
+    flex-shrink: 0;
+}
+
+/* Bloc email */
+.auteur {
+    min-width: 180px;
+}

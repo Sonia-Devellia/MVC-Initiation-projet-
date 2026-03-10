@@ -1,0 +1,22 @@
+/* Titre principal */
+.titre-page {
+    color: #1a5fa8;
+    font-weight: bold;
+}
+
+/* Carte centrée */
+.login-card {
+    max-width: 450px;
+}
+
+/* En-tête de la carte */
+.card-header {
+    background-color: #eaf3fb;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Carte */
+.card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
