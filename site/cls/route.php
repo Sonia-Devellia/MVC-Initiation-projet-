@@ -42,6 +42,12 @@ class Route {
                 $ctrl = new LoginController();
                 $ctrl->index();
                 break;
+            
+            case "rechercher":
+                require RACINE . "/controleur/rechercher_ctl.php";
+                $ctrl = new RechercherController();
+                $ctrl->index();
+                break;
 
             case "logout":
                 require RACINE . "/controleur/logout_ctl.php";
